@@ -1,0 +1,112 @@
+  <html>
+    <head>
+      <style type="text/css">
+      .tags{
+        padding-right:10px;
+      }
+      body {
+        width:520px;
+        font-family:sans-serif;
+        color: #555;
+      }
+      #tags div {
+        float: left;
+        margin: 10px 4px 0px 0px;
+        padding: 5px 3px 5px 5px;
+        font-size: 13px;
+        color: #555;
+        background: #999;
+        border-radius: 3px;
+      }
+      #tags .del {
+        padding: 2px;
+        margin-left:8px;
+        color: #fff;
+        cursor: pointer;
+      }
+      #input{
+        margin: 10px 4px 0px 0px;
+        padding:3px;
+        font-size: 12px;
+      }
+      #list span{
+        color: #FFF;
+        background: #006DB8;
+        padding: 3px 5px;
+        border-radius: 3px;
+        font-size: 12px;
+      }
+      #list ul {
+        list-style: none;
+        padding-left: 10px;
+        max-width: 500px;
+      }
+      #list li {
+        font-size: 12px;
+        line-height: 2.0em;
+        padding-left: 10px;
+      }
+      #list a {
+        display: block;
+        text-decoration: none;
+        color: #555;
+      }
+      #list a:hover {
+        color: #F88F1C;
+      }
+      #list ul a:nth-child(odd) {
+       background-color: #fafafa
+      }
+      #list ul a:nth-child(even) {
+       background-color: #ededed
+      }
+      #list span#no-tags-title{
+        color: #fff;
+        background: #999;
+      }
+      #message{
+        padding-top:3px;
+      }
+      #message span{
+        font-size: 12px;
+      }
+      #message .err{
+        display: block;
+        color: red
+      }
+      #message .undo{
+        color: #FFF;
+        cursor: pointer;
+        background: #F88F1C;
+        padding: 3px 5px;
+        border-radius: 3px;
+      }
+      #tagsTitle{
+        float:left;
+        font-size: 14px;
+        padding-right:10px;
+      }
+      #tags{
+        clear:left;
+      }
+      #listTitle{
+        font-size: 14px;
+        clear: left;
+        padding:20px 0px 10px 0px;
+      }
+
+      </style>
+    </head>
+    <body>
+      <div id="tagsTitle"><b>Bookmark Tags</b></div>
+      <div id="message"></div>
+      <div id="tags">
+      </div>
+      <input type="text" name="tag" id="input">
+      <div id="listTitle"><b>Bookmark List</b></div>
+      <div id="list"></div>
+    </body>
+    <footer>
+        <script type="text/javascript" src="options.js"></script>
+    </footer>
+</html>

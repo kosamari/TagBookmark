@@ -1,0 +1,29 @@
+{
+  "name": "Bookmark Tag",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Bookmark with tag feature",
+
+  "browser_action":{
+    "default_popup": "popup.html",
+    "default_icon": "img/19_nb.png"
+  },
+
+  "options_page": "options.html",
+
+  "icons": { 
+    "16": "img/16.png",
+    "48": "img/48.png",
+    "128": "img/128.png"
+  },
+
+  "background":{
+    "scripts":["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "bookmarks",
+    "tabs"
+   ]
+}
