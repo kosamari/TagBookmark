@@ -1,5 +1,6 @@
-Tab Bookmark
+Labeled Bookmark
 ==============
 
-Manage bookmarks like Gmail. By tags, not folders.
+Manage bookmarks like Gmail. By labels, not folders.  
+
 
